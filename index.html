@@ -142,8 +142,27 @@
     </header>
     <main class="page-main">
     </main>
-    <footer class="page-footer">
-    </footer>
+    <div class="download-bar">
+      <p class="download-bar__info">
+        <!-- ИКОНКА ПСЕВДОЭЛЕМЕНТОМ -->
+        Downloading - <span class="download-bar__name"> Captain America</span>
+        <p class="download-bar__count-group">
+          (<span class="download-bar__count-pass">105 / </span>
+          <span class="download-bar__count-remain">215 MB</span>)
+        </p>
+      </p>
+      <ul class="download-bar__tools-list">
+        <li class="download-bar__toolst-item  download-bar__toolst-item--trash">
+          <button class="download-bar__tools-btn  download-bar__tools-btn--trash" type="button"></button>
+        </li>
+        <li class="download-bar__toolst-item  download-bar__toolst-item--refresh">
+          <button class="download-bar__tools-btn  download-bar__tools-btn--refresh" type="button"></button>
+        </li>
+        <li class="download-bar__toolst-item  download-bar__toolst-item--close">
+          <button class="download-bar__tools-btn  download-bar__tools-btn--close" type="button"></button>
+        </li>
+      </ul>
+    </div>
     <script src="js/script.min.js"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
