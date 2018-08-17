@@ -112,28 +112,28 @@
           </li>
           <li class="info-bar__stats-item  info-bar__stats-item--3">
             <span class="info-bar__stats-name">RAITING</span>
-            <span class="info-bar__stats-value">
-              <div class="info-bar__wrapper">
-                <img class="info-bar__star" width="" height="" src="" alt="звезда рейтинга">
-                <img class="info-bar__star" width="" height="" src="" alt="звезда рейтинга">
-                <img class="info-bar__star" width="" height="" src="" alt="звезда рейтинга">
-                <img class="info-bar__star" width="" height="" src="" alt="звезда рейтинга">
-                <img class="info-bar__star  info-bar__star--empty" width="" height="" src="" alt="звезда рейтинга">
-              </div>
-            </span>
+            <div class="info-bar__stats-value  star">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img  star__img--empty" width="" height="" src="" alt="звезда рейтинга">
+            </div>
           </li>
         </ul>
-        <ul class="info-bar__status-list">
-          <li class="info-bar__status-item  info-bar__status-item--like">
-            <span class="info-bar__status-count  info-bar__status-count--like"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->2,548</span>
-          </li>
-          <li class="info-bar__status-item  info-bar__status-item--comments">
-            <span class="info-bar__status-count  info-bar__status-count--comments"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->21</span>
-          </li>
-          <li class="info-bar__status-item  info-bar__status-item--download">
-            <span class="info-bar__status-count  info-bar__status-count--download"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->564</span>
-          </li>
-        </ul>
+        <div class="status">
+          <ul class="status__list  status__list--info-bar">
+            <li class="status__item  status__item--like">
+              <span class="status__count  status__count--like"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->2,548</span>
+            </li>
+            <li class="status__item  status__item--comments">
+              <span class="status-count  status-count--comments"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->21</span>
+            </li>
+            <li class="status__item  status__item--download">
+              <span class="status__count  status__count--download"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->564</span>
+            </li>
+          </ul>
+        </div>
       </section>
       <div class="page-header__wrapper">
         <img class="page-header__img" width="" height="" src="#" alt="логотип фильма">
@@ -141,6 +141,149 @@
       </div>
     </header>
     <main class="page-main">
+      <div class="film-download  film-download--1">
+        <div class="film-download__wrapper">
+          <span class="film-download__like-count">3.542</span>
+          <button class="film-download__btn">D</button>
+        </div>
+        <p class="film-download__tittle">Guardians of the Galaxy</p>
+      </div>
+      <div class="film-stats  film-stats--1">
+        <div class="film-stats__wrapper">
+          <ul class="status__list  status__list--film-stats">
+            <li class="status__item  status__item--like">
+              <span class="status__count  status__count--like"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->4.681</span>
+            </li>
+            <li class="status__item  status__item--comments">
+              <span class="status-count  status-count--comments"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->58</span>
+            </li>
+            <li class="status__item  status__item--download">
+              <span class="status__count  status__count--download"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->642</span>
+            </li>
+          </ul>
+          <p class="film-stats__text  film-stats__text--top">
+            <p class="star  star--film-stats">Raiting:
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img  star__img--empty" width="" height="" src="" alt="пустая звезда рейтинга">
+            </p>
+          </p>
+          <p class="film-stats__text  film-stats__text--bottom">Release Date:
+            <span class="film-stats__text--min">May 03, 2013</span>
+          </p>
+          <a class="film-stats__link" href="#">
+            <img class="film-stats__link-img" src="" alt="">
+          </a>
+        </div>
+        <img class="film-stats__img" width="" height="" src="#" alt="">
+        <p class="film-stats__title">Iron Man 3</p>
+      </div>
+      <div class="film-download  film-download--2">
+        <div class="film-download__wrapper">
+          <span class="film-download__like-count">2.248</span>
+          <button class="film-download__btn">D</button>
+        </div>
+        <p class="film-download__tittle">Captain America</p>
+      </div>
+      <div class="film-download  film-download--3">
+        <div class="film-download__wrapper">
+          <span class="film-download__like-count">2.951</span>
+          <button class="film-download__btn">D</button>
+        </div>
+        <p class="film-download__tittle">The Amazing Spider-Man 2</p>
+      </div>
+      <div class="film-download  film-download--4">
+        <div class="film-download__wrapper">
+          <span class="film-download__like-count">3.248</span>
+          <button class="film-download__btn">D</button>
+        </div>
+        <p class="film-download__tittle">The Incredible Hulk</p>
+      </div>
+      <div class="film-download  film-download--5">
+        <div class="film-download__wrapper">
+          <span class="film-download__like-count">3.234</span>
+          <button class="film-download__btn">D</button>
+        </div>
+        <p class="film-download__tittle">The First Avenger</p>
+      </div>
+      <div class="film-view  film-view--1">
+        <button class="film-view__btn">P</button>
+        <div class="film-view__scale">
+          <div class="film-view__bar"></div>
+        </div>
+      </div>
+      <div class="film-stats  film-stats--2">
+        <div class="film-stats__wrapper">
+          <ul class="status__list  status__list--film-stats">
+            <li class="status__item  status__item--like">
+              <span class="status__count  status__count--like"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->4.681</span>
+            </li>
+            <li class="status__item  status__item--comments">
+              <span class="status-count  status-count--comments"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->58</span>
+            </li>
+            <li class="status__item  status__item--download">
+              <span class="status__count  status__count--download"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->156</span>
+            </li>
+          </ul>
+          <p class="film-stats__text  film-stats__text--top">
+            <p class="star  star--film-stats">Raiting:
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img  star__img--empty" width="" height="" src="" alt="пустая звезда рейтинга">
+              <img class="star__img  star__img--empty" width="" height="" src="" alt="пустая звезда рейтинга">
+            </p>
+          </p>
+          <p class="film-stats__text  film-stats__text--bottom">Release Date:
+            <span class="film-stats__text--min">Jul 26, 2013</span>
+          </p>
+          <a class="film-stats__link" href="#">
+            <img class="film-stats__link-img" src="" alt="">
+          </a>
+        </div>
+        <img class="film-stats__img" width="" height="" src="#" alt="">
+      </div>
+      <div class="film-view  film-view--2">
+        <button class="film-view__btn">P</button>
+        <div class="film-view__scale">
+          <div class="film-view__bar"></div>
+        </div>
+      </div>
+      <div class="film-stats  film-stats--3">
+        <div class="film-stats__wrapper">
+          <ul class="status__list  status__list--film-stats">
+            <li class="status__item  status__item--like">
+              <span class="status__count  status__count--like"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->6.875</span>
+            </li>
+            <li class="status__item  status__item--comments">
+              <span class="status-count  status-count--comments"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->214</span>
+            </li>
+            <li class="status__item  status__item--download">
+              <span class="status__count  status__count--download"><!-- ИЗОБРАЖЕНИЯ СДЕЛАТЬ ПСЕВДОЭЛЕМЕНТОМ -->324</span>
+            </li>
+          </ul>
+          <p class="film-stats__text  film-stats__text--top">
+            <p class="star  star--film-stats">Raiting:
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img" width="" height="" src="" alt="звезда рейтинга">
+              <img class="star__img  star__img--empty" width="" height="" src="" alt="пустая звезда рейтинга">
+            </p>
+          </p>
+          <p class="film-stats__text  film-stats__text--bottom">Release Date:
+            <span class="film-stats__text--min">Juk 26, 2013</span>
+          </p>
+          <a class="film-stats__link" href="#">
+            <img class="film-stats__link-img" src="" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="film-stats  film-stats--4">
+        <img class="film-stats__img" width="" height="" src="#" alt="">
+      </div>
     </main>
     <div class="download-bar">
       <p class="download-bar__info">
